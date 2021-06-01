@@ -24,16 +24,16 @@ jobs:
         with:
           filters: |
             python: &python
-            - 'aeppl/**/*.py'
+            - 'aesara_repo/**/*.py'
             - 'tests/**/*.py'
-            - 'aeppl/**/*.pyx'
+            - 'aesara_repo/**/*.pyx'
             - 'tests/**/*.pyx'
             - '*.py'
             src:
             - *python
-            - 'aeppl/**/*.c'
+            - 'aesara_repo/**/*.c'
             - 'tests/**/*.c'
-            - 'aeppl/**/*.h'
+            - 'aesara_repo/**/*.h'
             - 'tests/**/*.h'
             - '.github/**/*.yml'
             - 'setup.cfg'
